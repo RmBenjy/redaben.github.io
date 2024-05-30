@@ -1,14 +1,15 @@
 ---
-date: '4'
-title: 'Customer segmentation in US'
-cover: 'Dash.mp4'
+date: '2'
+title: 'Movie Recommendation'
+cover: 'disneyclone.png'
+github: 'https://github.com/RmBenjy/Movie-Recommendation'
 external: '/404'
 tech:
-  - K-Means
-  - PCA
-  - JupyterDash
+  - Streamlit
+  - EDA
+  - Python
 showInProjects: true
 ---
 
-Conducted complex exploratory data analysis, applied unsupervised learning with a k-means model, performed feature selection for clustering, reduced high-dimensional data with PCA, and even designed and deployed a Dash web application.
-
+This project consists of a movie recommendation system implemented in Python, with an interactive user interface created using Streamlit.
+Utilizing the "MovieLens 100K Dataset" available on Kaggle, the objective of this project is to provide personalized recommendations for movies.
