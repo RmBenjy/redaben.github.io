@@ -1,14 +1,25 @@
 ---
-date: '2020-07-01'
-title: 'Virtual Internship Experience'
-company: 'Forage'
+date: '2024-05-10'
+title: 'Virtual Internship'
+company: 'Meriskill'
 location: remote
-range: 'July 2020 - May 2021'
-url: 'https://www.theforage.com/'
+range: 'May 2024 - June 2024'
+url: 'https://www.meriskill.com/'
 ---
 
-- Microsoft - Engineering Virtual Experience [CERTIFICATE](https://insidesherpa.s3.amazonaws.com/completion-certificates/Microsoft/ms2CK9b2SCWGXwPMS_Microsoft_nXPiDeZbPmvKvvjHA_completion_certificate.pdf)
-- Deloitte - Technology Consulting Virtual Internship [CERTIFICATE](https://insidesherpa.s3.amazonaws.com/completion-certificates/Deloitte/FqFtWwQzNxJ8Qsh5H_Deloitte_nXPiDeZbPmvKvvjHA_completion_certificate.pdf)
-- JPMorgan Chase & Co. Software Engineering Virtual Experience [CERTIFICATE](https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_nXPiDeZbPmvKvvjHA_completion_certificate.pdf)
-- KPMG - Data Analytics Consulting Virtual Internship [CERTIFICATE](https://insidesherpa.s3.amazonaws.com/completion-certificates/KPMG/m7W4GMqeT3bh9Nb2c_KPMG_nXPiDeZbPmvKvvjHA_completion_certificate.pdf)
-- Y Combinator Virtual Experience [CERTIFICATE](https://drive.google.com/file/d/1btrRl7BWopLhOWudEI1RTOSl7qsCl-yS/view)
+Conducted multiple projects :
+- **Sales Data Analysis**:
+  - Analyzed sales data using Power BI
+  - Created interactive dashboards and visualizations
+  - Identified key sales trends and insights
+
+- **Diabetes Prediction**:
+  - Developed a predictive model for diabetes
+  - Utilized machine learning techniques
+  - Implemented data preprocessing and feature engineering
+
+- **HR Analytics**:
+  - Conducted HR data analysis using Power BI
+  - Built dashboards to track key HR metrics
+  - Provided insights into employee performance and retention
+
