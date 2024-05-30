@@ -1,17 +1,14 @@
 ---
-date: '2'
-title: 'Disney+ Clone'
-cover: './disneyclone.png'
-github: 'https://github.com/yashitanamdeo/Disney-plus-Clone'
-external: 'https://disney-clone-83e44.web.app/'
+date: '4'
+title: 'Customer segmentation in US'
+cover: 'Dash.mp4'
+external: '/404'
 tech:
-  - ReactJS
-  - Redux
-  - Styled Components
-  - Firebase
+  - K-Means
+  - PCA
+  - JupyterDash
 showInProjects: true
 ---
 
-Built Disney+ Clone with React JS with Google account's Sign in feature. Styled to get 15+ movies made by Disney; clickable images to get details of the specific movie.
+Conducted complex exploratory data analysis, applied unsupervised learning with a k-means model, performed feature selection for clustering, reduced high-dimensional data with PCA, and even designed and deployed a Dash web application.
 
-Inspired by Clever Programmer's [Youtube Channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ).
