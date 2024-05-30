@@ -1,18 +1,12 @@
 ---
 date: '3'
-title: 'Real-Time Face Mask Detection'
-cover: 'face-mask.png'
-github: 'https://github.com/yashitanamdeo/Realtime-Face-Mask-Detection'
-external: 'https://drive.google.com/file/d/1AFIZC2R4F3pmTlNZgq4BcIC2Uv_l2UGI/view?usp=sharing'
+title: 'A/B Testing at WQU'
+cover: 'test.png'
+external: '/404'
 tech:
-  - OpenCV
-  - MobileNetV2
-  - TensorFlow
-  - Keras
+  - ETL
   - Python
 showInProjects: true
 ---
 
-Face Mask Detection system to automatically detect the face masks on people in real time through webcams. Own custom dataset was built using Bing Search API and Kaggle. Achieved 95% accuracy in all mask colors; managed to improve efficiency in all lighting conditions
-
-Inspired by Adrian Rosebrock's [PyImageSearch Blog](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/).
+Built a choropleth map showcasing the global distribution of ADSL students, implemented ETL processes with a custom Python class, designed experiments, and analyzed results using chi-square tests. Also, crafted an interactive web application following a three-tiered design pattern.
