@@ -1,16 +1,13 @@
 ---
-date: '2021-04-18'
-title: 'Whatsapp Chat Analysis'
-github: 'https://github.com/yashitanamdeo/WhatsApp-Chat-Analysis'
-external: 'https://github.com/yashitanamdeo/WhatsApp-Chat-Analysis/blob/main/WhatsApp%20Chat%20Analysis.ipynb'
+title: 'Tweet Text Classification'
+github: 'https://github.com/RmBenjy/Tweet-classification'
 tech:
   - Python
-  - Regex
-  - Numpy
-  - Pandas
-  - Matplotlib
+  - Spacy
+  - LogisticRegression 
+  - CountVectorizer
 company: ''
 showInProjects: true
 ---
 
-Demonstrated analysis of WhatsApp chat; presented organized messages sent per person in 2 creative ways. Collated stats into visuals; organized emoji, media, and links sent count.
+This project delves into the emotional pulse of Twitter by classifying tweets based on sentiment.
