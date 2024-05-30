@@ -1,15 +1,14 @@
 ---
 date: '4'
-title: 'AI Face Landmark Detection'
-cover: 'face-landmark.png'
-github: 'https://github.com/yashitanamdeo/face-landmark-detection'
-external: 'https://yashitanamdeo.github.io/face-landmark-detection/'
+title: 'Customer segmentation in US'
+cover: 'Dash.mp4'
+external: '/404'
 tech:
-  - TensorFlow.JS
-  - React
+  - K-Means
+  - PCA
+  - JupyterDash
 showInProjects: true
 ---
 
-Facial landmark recognition allows you to detect a number of different points on your face that together make up your eyes, mouth, ears, nose and so on.
+Conducted complex exploratory data analysis, applied unsupervised learning with a k-means model, performed feature selection for clustering, reduced high-dimensional data with PCA, and even designed and deployed a Dash web application.
 
-Inspired by Nicholas Renotte's [Youtube Tutorial](https://www.youtube.com/watch?v=7lXYGDVHUNw).
