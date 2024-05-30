@@ -1,18 +1,17 @@
 ---
 date: '1'
-title: 'Covid-19 Tracker'
+title: 'ChatBot'
 cover: 'demo1.png'
-github: 'https://github.com/yashitanamdeo/Covid19-tracker'
-external: 'https://covid19-tracker-84ef4.web.app/'
+github: 'https://github.com/RmBenjy/CHATBOT-FLASK'
+external: '/404'
 tech:
-  - ReactJS
-  - Firebase
-  - Material UI
+  - Flask
+  - Pytorch
+  - JavaScript
 
 showInProjects: true
 ---
 
-Designed and implemented React-based Web Application to monitor live corona cases, recoveries, and
-deaths(clickable tabs) in 180+ countries worldwide. Directed to display 2 features – worldwide cases and countries based report; clickable markers on the map to show country stats and line chart for fluctuations over days, on hover, gives exact figures.
+Creation of a chatbot based on WafaGestion's website to answer users' questions. The project was carried out with the Python programming language using the PyTorch library in particular, and was deployed using the Flask framework.
 
-Inspired by Clever Programmer's [Youtube Channel](https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ).
+
