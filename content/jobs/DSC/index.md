@@ -1,12 +1,11 @@
 ---
-date: '2020-09-21'
-title: 'Member'
-company: 'DSV - SVVV'
-location: remote
-range: 'Sep 2020 - Present'
-url: 'https://dsc.community.dev/shri-vaishnav-vidyapeeth-vishwavidyalaya/'
+date: '2023-07-24'
+title: 'Summer Internship'
+company: 'WafaGestion'
+location: on site
+range: 'July 2023 - August 2023'
+url: 'https://www.wafagestion.com/en'
 ---
 
-- Grown knowledge in a peer-to-peer learning environment.
-- Build solutions for local businesses and the community.
-- Attained several technical workshops.
+- Creation of a chatbot based on WafaGestion's website to answer users' questions.
+- The project was carried out with the Python programming language using the PyTorch library in particular, and was deployed using the Flask framework.
