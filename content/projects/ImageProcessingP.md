@@ -1,13 +1,11 @@
 ---
-date: '2021-05-18'
-title: 'Image Processing in Python'
-github: 'https://github.com/yashitanamdeo/Image-Processing-Python'
-external: 'https://github.com/yashitanamdeo/Image-Processing-Python/blob/main/Image_Processing.ipynb'
+title: 'X-Ray Image Classification with Python'
+github: 'https://github.com/RmBenjy/X_Ray_Body_Parts'
 tech:
-  - Python
-  - Numpy
-  - OpenCV
+  - Tensorflow
+  - Keras
+company: ''
 showInProjects: true
 ---
 
-Image Processing of different images in Python.
+This project consists of a model trained on a dataset of X-ray images and can be used to predict the class of a new image.
