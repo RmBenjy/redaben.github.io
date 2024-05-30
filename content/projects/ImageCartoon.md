@@ -1,13 +1,10 @@
 ---
-date: '2020-01-14'
-title: 'Image Cartoonifier'
-github: 'https://github.com/chandrikadeb7/100DaysOfCode'
-external: ''
+title: 'Cartoony Filter'
+github: 'https://github.com/RmBenjy/Capture-Camera/tree/main'
 tech:
   - Python
-  - OpenCV
-company: ''
+  - CV2
 showInProjects: true
 ---
 
-Coded a Python Application to convert photo to cartoon, giving six image variations using matplotlib and Tkinter library
+This fun project lets you unleash your inner cartoonist by applying filters in real-time directly on your camera.
