@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://redaben.github.io/sitemap.xml
+Host: https://redaben.github.io
