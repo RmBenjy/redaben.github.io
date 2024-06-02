@@ -1,9 +1,9 @@
 ---
-date: '2'
+date: '3'
 title: 'Movie Recommendation'
-cover: 'disneyclone.png'
+cover: './disneyclone.png'
 github: 'https://github.com/RmBenjy/Movie-Recommendation'
-external: '/404'
+external: 'https://github.com/RmBenjy/Movie-Recommendation'
 tech:
   - Streamlit
   - EDA

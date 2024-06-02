@@ -1,7 +1,7 @@
 ---
-date: '4'
+date: '1'
 title: 'Customer segmentation in US'
-cover: 'customer.png'
+cover: './customer.png'
 external: '/404'
 tech:
   - K-Means

@@ -1,6 +1,6 @@
 ---
 date: '2024-05-10'
-title: 'Virtual Internship'
+title: 'Data Analyst Intern'
 company: 'Meriskill'
 location: remote
 range: 'May 2024 - June 2024'

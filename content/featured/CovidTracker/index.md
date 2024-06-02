@@ -1,9 +1,9 @@
 ---
-date: '1'
+date: '4'
 title: 'ChatBot'
-cover: 'demo1.png'
+cover: './chat.png'
 github: 'https://github.com/RmBenjy/CHATBOT-FLASK'
-external: '/404'
+external: 'https://github.com/RmBenjy/CHATBOT-FLASK'
 tech:
   - Flask
   - Pytorch

@@ -1,39 +1,32 @@
 module.exports = {
-  siteTitle: 'Yashita Namdeo',
+  siteTitle: 'Reda Benjelloun',
   siteDescription:
-    'Yashita Namdeo is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.',
+    'Reda Benjelloun is an incoming Data Scientist and AI enthusiast.',
   siteKeywords:
-    'Yashita Namdeo, Yashita, Namdeo, yashitanamdeo, software engineer, web developer, javascript, python, java, svvv, indore',
-  siteUrl: 'https://yashitanamdeo.github.io/',
+    'Reda Benjelloun, Reda, Benjelloun, Mohamed Reda Benjelloun, data scientist, data science, Artificial Intelligence, AI, ML, python, java',
+  siteUrl: 'https://redaben.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Yashita Namdeo',
-  location: 'Indore, India',
-  email: 'yashita.namdeo2000@gmail.com',
-  github: 'https://github.com/yashitanamdeo',
+  name: 'Reda Benjelloun',
+  location: 'Casablanca, Morocco',
+  email: 'redabenjelloun24@gmail.com',
+  github: 'https://github.com/RmBenjy',
   twitterHandle: '@',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/yashitanamdeo',
+      url: 'https://github.com/RmBenjy',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/yashitanamdeo/',
+      url: 'https://www.linkedin.com/in/reda-benjelloun24//',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/yashitanamdeo',
+      url: 'mailto:redabenjelloun24@gmail.com',
     },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/yashitanamdeo',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/',
-    },
+  
   ],
 
   navLinks: [
@@ -48,6 +41,10 @@ module.exports = {
     {
       name: 'Projects',
       url: '/#projects',
+    },
+    {
+      name: 'Other',
+      url: '/#other',
     },
     {
       name: 'Contact',

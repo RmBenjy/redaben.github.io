@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
@@ -25,7 +25,7 @@ const StyledContent = styled.div`
 `;
 const SkillsContainer = styled.ul`
   display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
+  grid-template-columns: repeat(1, minmax(400px, 800px));
   overflow: hidden;
   padding: 0;
   margin: 20px 0 0 0;
@@ -114,7 +114,7 @@ const StyledAvatarLink = styled.a`
 
 const About = ({ data }) => {
   const { frontmatter, html } = data[0].node;
-  const { title, skills, avatar } = frontmatter;
+  const { title, avatar } = frontmatter;
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
@@ -124,12 +124,45 @@ const About = ({ data }) => {
       <StyledFlexContainer>
         <StyledContent>
           <div dangerouslySetInnerHTML={{ __html: html }} />
-          <SkillsContainer>
-            {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
-          </SkillsContainer>
+
+          {
+            <SkillsContainer>
+              <Skill>
+                {`${'Programming languages'}: `}
+                <span style={{ color: 'white' }}>
+                  {'Python | C++ | Java | SQL'}
+                </span>
+              </Skill>
+
+              <Skill>
+                {`${'Machine Learning Libraries'}: `}
+                <span style={{ color: 'white' }}>
+                  {'TensorFlow | Scikit-learn | PyTorch'}
+                </span>
+              </Skill>
+              <Skill>
+                {`${'Database Management'}: `}
+                <span style={{ color: 'white' }}>
+                  {' MongoDB | Oracle Database | PL/SQL | MySQL'}
+                </span>
+              </Skill>
+
+              <Skill>
+                {`${'Data visualization tools'}: `}
+                <span style={{ color: 'white' }}>{'Matplotlib | Seaborn'}</span>
+              </Skill>
+
+              <Skill>
+                {`${'Data Analysis'}: `}
+                <span style={{ color: 'white' }}>
+                  {'Power BI | Excel'}
+                </span>
+              </Skill>
+            </SkillsContainer>
+          }
         </StyledContent>
         <StyledPic>
-          <StyledAvatarLink href={github}>
+          <StyledAvatarLink href="https://www.linkedin.com/in/reda-benjelloun24/">
             <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
           </StyledAvatarLink>
         </StyledPic>

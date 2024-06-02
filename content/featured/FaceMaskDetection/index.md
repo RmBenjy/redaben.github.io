@@ -1,7 +1,7 @@
 ---
-date: '3'
+date: '2'
 title: 'A/B Testing at WQU'
-cover: 'Dash2.mp4'
+cover: './dash.png'
 external: '/404'
 tech:
   - ETL
