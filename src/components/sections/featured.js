@@ -128,24 +128,6 @@ const StyledTechList = styled.ul`
   }
 `;
 
-const StyledLinkWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin-top: 10px;
-  margin-left: -10px;
-  color: ${colors.lightestSlate};
-
-  a {
-    padding: 10px;
-
-    svg {
-      width: 22px;
-      height: 22px;
-    }
-  }
-`;
-
 const StyledFeaturedImg = styled(Img)`
   width: 100%;
   max-width: 80%;
@@ -233,14 +215,6 @@ const Featured = ({ data }) => {
                       ))}
                     </StyledTechList>
                   )}
-
-                  <StyledLinkWrapper>
-                    <Link to="/404">
-                      {' '}
-                      {/* Change "/404" to the actual path of your 404 page */}
-                      <FormattedIcon name="External" />
-                    </Link>
-                  </StyledLinkWrapper>
                 </StyledContent>
 
                 <StyledImgContainer
