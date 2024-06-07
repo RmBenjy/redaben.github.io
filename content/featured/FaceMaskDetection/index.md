@@ -2,7 +2,8 @@
 date: '2'
 title: 'A/B Testing at WQU'
 cover: './dash.png'
-external: '/404'
+github: 'https://github.com/RmBenjy/A-B-Testing-at-WQU'
+external: 'https://github.com/RmBenjy/A-B-Testing-at-WQU'
 tech:
   - ETL
   - Python
