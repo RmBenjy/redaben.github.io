@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Customer segmentation in US'
-cover: './customer.png'
+cover: './video2.mp4'
 external: '/404'
 tech:
   - K-Means
