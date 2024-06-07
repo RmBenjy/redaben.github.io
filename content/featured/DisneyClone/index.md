@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Movie Recommendation'
-cover: './Movies.mp4'
+cover: './disneyclone.png'
 github: 'https://github.com/RmBenjy/Movie-Recommendation'
 external: 'https://github.com/RmBenjy/Movie-Recommendation'
 tech:
