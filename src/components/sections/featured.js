@@ -128,6 +128,24 @@ const StyledTechList = styled.ul`
   }
 `;
 
+const StyledLinkWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+  margin-left: -10px;
+  color: ${colors.lightestSlate};
+
+  a {
+    padding: 10px;
+
+    svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+`;
+
 const StyledFeaturedImg = styled(Img)`
   width: 100%;
   max-width: 80%;
@@ -142,26 +160,7 @@ const StyledFeaturedImg = styled(Img)`
     object-fit: cover;
     width: auto;
     height: 100%;
-  `};
-
-  ${media.thone`
-    max-width: 100%; /* Set the maximum width for small screens */
-  `};
-`;
-
-const StyledFeaturedVideo = styled.video`
-  width: 100%;
-  max-width: 80%;
-  vertical-align: middle;
-  border-radius: ${theme.borderRadius};
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-
-  ${media.tablet`
-    object-fit: cover;
-    width: auto;
-    height: 100%;
+    
   `};
 
   ${media.thone`
@@ -207,7 +206,6 @@ const Featured = ({ data }) => {
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover } = frontmatter;
-            const isVideo = cover && cover.endsWith('.mp4');
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -235,20 +233,21 @@ const Featured = ({ data }) => {
                       ))}
                     </StyledTechList>
                   )}
+
+                  <StyledLinkWrapper>
+                    <Link to="/404">
+                      {' '}
+                      {/* Change "/404" to the actual path of your 404 page */}
+                      <FormattedIcon name="External" />
+                    </Link>
+                  </StyledLinkWrapper>
                 </StyledContent>
 
                 <StyledImgContainer
                   href={external ? external : github ? github : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
-                  {isVideo ? (
-                    <StyledFeaturedVideo controls>
-                      <source src={cover} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </StyledFeaturedVideo>
-                  ) : (
-                    <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
-                  )}
+                  <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
                 </StyledImgContainer>
               </StyledProject>
             );
