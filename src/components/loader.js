@@ -46,28 +46,28 @@ const Loader = ({ finishLoading }) => {
     loader
       .add({
         targets: '#logo path',
-        delay: 100, // Reduced from 300 to 100
-        duration: 1000, // Reduced from 1500 to 1000
+        delay: 50, // Reduced from 100 to 50
+        duration: 700, // Reduced from 1000 to 700
         easing: 'easeInOutQuart',
         strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({
         targets: '#logo #B',
-        duration: 500, // Reduced from 700 to 500
+        duration: 300, // Reduced from 500 to 300
         easing: 'easeInOutQuart',
         opacity: 1,
       })
       .add({
         targets: '#logo',
-        delay: 300, // Reduced from 500 to 300
-        duration: 200, // Reduced from 300 to 200
+        delay: 200, // Reduced from 300 to 200
+        duration: 150, // Reduced from 200 to 150
         easing: 'easeInOutQuart',
         opacity: 0,
         scale: 0.1,
       })
       .add({
         targets: '.loader',
-        duration: 100, // Reduced from 200 to 100
+        duration: 100, // Reduced from 100 to 50
         easing: 'easeInOutQuart',
         opacity: 0,
         zIndex: -1,
