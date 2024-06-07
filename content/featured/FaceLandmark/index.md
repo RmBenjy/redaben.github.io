@@ -1,8 +1,9 @@
 ---
 date: '1'
 title: 'Customer segmentation in US'
-cover: './video2.mp4'
-external: '/404'
+cover: './customer.png'
+github: 'https://github.com/RmBenjy/Customer-segmentation-in-US'
+external: 'https://github.com/RmBenjy/Customer-segmentation-in-US'
 tech:
   - K-Means
   - PCA
