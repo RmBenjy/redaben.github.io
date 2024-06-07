@@ -142,7 +142,26 @@ const StyledFeaturedImg = styled(Img)`
     object-fit: cover;
     width: auto;
     height: 100%;
-    
+  `};
+
+  ${media.thone`
+    max-width: 100%; /* Set the maximum width for small screens */
+  `};
+`;
+
+const StyledFeaturedVideo = styled.video`
+  width: 100%;
+  max-width: 80%;
+  vertical-align: middle;
+  border-radius: ${theme.borderRadius};
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  ${media.tablet`
+    object-fit: cover;
+    width: auto;
+    height: 100%;
   `};
 
   ${media.thone`
@@ -188,6 +207,7 @@ const Featured = ({ data }) => {
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover } = frontmatter;
+            const isVideo = cover && cover.endsWith('.mp4');
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -221,7 +241,14 @@ const Featured = ({ data }) => {
                   href={external ? external : github ? github : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
-                  <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
+                  {isVideo ? (
+                    <StyledFeaturedVideo controls>
+                      <source src={cover} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </StyledFeaturedVideo>
+                  ) : (
+                    <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
+                  )}
                 </StyledImgContainer>
               </StyledProject>
             );
