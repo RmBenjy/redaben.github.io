@@ -66,10 +66,7 @@ const StyledProject = styled.div`
     }
   }
 `;
-const StyledProjectHeader = styled.div`
-  ${mixins.flexBetween};
-  margin-bottom: 30px;
-`;
+
 const StyledFolder = styled.div`
   color: ${colors.green};
   svg {
