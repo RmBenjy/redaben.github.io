@@ -1,6 +1,6 @@
 ---
 date: '2023-07-24'
-title: 'Summer Internship'
+title: 'Chatbot Developper Intern'
 company: 'WafaGestion'
 location: on site
 range: 'July 2023 - August 2023'
