@@ -66,7 +66,10 @@ const StyledProject = styled.div`
     }
   }
 `;
-
+const StyledProjectHeader = styled.div`
+  ${mixins.flexBetween};
+  margin-bottom: 30px;
+`;
 const StyledFolder = styled.div`
   color: ${colors.green};
   svg {
@@ -135,7 +138,7 @@ const Projects = ({ data }) => {
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  const GRID_LIMIT = 9;
+  const GRID_LIMIT = 3;
   const projects = data.filter(({ node }) => node);
   const firstSix = projects.slice(0, GRID_LIMIT);
   const projectsToShow = showMore ? projects : firstSix;
@@ -143,6 +146,7 @@ const Projects = ({ data }) => {
   return (
     <StyledContainer>
       <StyledTitle ref={revealTitle}>Other Noteworthy Projects</StyledTitle>
+
 
       <StyledGrid>
         <TransitionGroup className="projects">
@@ -210,6 +214,9 @@ const Projects = ({ data }) => {
         </TransitionGroup>
       </StyledGrid>
 
+      <StyledMoreButton onClick={() => setShowMore(!showMore)}>
+        Show {showMore ? 'Less' : 'More'}
+      </StyledMoreButton>
     </StyledContainer>
   );
 };
