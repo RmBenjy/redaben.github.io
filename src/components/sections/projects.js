@@ -216,8 +216,6 @@ const Projects = ({ data }) => {
         </TransitionGroup>
       </StyledGrid>
 
-
-      </StyledMoreButton>
     </StyledContainer>
   );
 };
