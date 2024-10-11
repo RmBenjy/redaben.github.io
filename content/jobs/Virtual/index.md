@@ -7,19 +7,11 @@ range: 'May 2024 - June 2024'
 url: 'https://www.meriskill.com/'
 ---
 
-Conducted multiple projects :
-- **Sales Data Analysis**:
-  - Analyzed sales data using Power BI
-  - Created interactive dashboards and visualizations
-  - Identified key sales trends and insights
+Comprehensive Business and Health Data Analysis Project:
 
-- **Diabetes Prediction**:
-  - Developed a predictive model for diabetes
-  - Utilized machine learning techniques
-  - Implemented data preprocessing and feature engineering
+- **Sales Data Analysis**: Leveraged Power BI to explore and visualize sales data, creating interactive dashboards that identified critical sales trends and insights, which informed strategic decision-making.
 
-- **HR Analytics**:
-  - Conducted HR data analysis using Power BI
-  - Built dashboards to track key HR metrics
-  - Provided insights into employee performance and retention
+- **Diabetes Prediction**: Extended the analytical approach to healthcare by developing a predictive model for diabetes using machine learning techniques. Implemented data preprocessing and feature engineering to ensure the model’s accuracy and robustness.
+
+- **HR Analytics**: Applied data analysis skills to the HR domain using Power BI, building dashboards to monitor key HR metrics. Delivered insights into employee performance and retention, aiding in the formulation of retention strategies.
 
