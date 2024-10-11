@@ -1,20 +1,15 @@
 ---
 date: '2024-07-15'
-title: 'Data Science and Data Analysis Intern'
+title: 'Data Science Intern'
 company: 'Crédit Du Maroc'
 location: on site
 range: 'July 2024 - September 2024'
 url: 'https://www.creditdumaroc.ma/'
 ---
 
-- Data collection and extraction:
-  - Web scraping to collect information on banks
-  - PDF scraping to extract data on banking transactions
-- Development of a pipeline in Python to manage and transform data from Excel and PDF files.
-- Creation of a consolidated database.
-- Data visualization:
-  - Development of interactive dashboards in Power BI
-- Data augmentation and predictions:
-  - Application of data augmentation techniques to fill data gaps
-  - Use of the SARIMA model to make forecasts on future transactions
-- Analysis of insights to formulate strategic recommendations aimed at improving the performance of bank card outstandings at Crédit Du Maroc.
+- Collected and extracted data using advanced techniques, including web and PDF scraping.
+- Developed an automated pipeline in Python to extract and process data from PDF and Excel files, reducing data processing time by 50%.
+- Built a consolidated database to centralize and manage data efficiently.
+- Applied data augmentation techniques to fill gaps and enhance dataset quality.
+- Designed interactive Power BI dashboards, integrating the SARIMA model to improve transactional forecast accuracy by 15%.
+- Analyzed insights and formulated strategic recommendations to optimize the performance of bank card outstandings at Crédit Du Maroc.
