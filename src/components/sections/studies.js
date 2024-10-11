@@ -94,6 +94,11 @@ const Studies = () => {
                   <ul>
                     <li>
                       {
+                        'Team Management and Leadership.'
+                      }
+                    </li>
+                    <li>
+                      {
                         'Organization of a conference around retail and entrepreneurship.'
                       }
                     </li>
