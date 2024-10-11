@@ -130,7 +130,7 @@ const About = ({ data }) => {
               <Skill>
                 {`${'Programming languages'}: `}
                 <span style={{ color: 'white' }}>
-                  {'Python | C++ | Java | SQL'}
+                  {'Python | R | C++ | Java | SQL'}
                 </span>
               </Skill>
 
@@ -146,10 +146,17 @@ const About = ({ data }) => {
                   {' MongoDB | Oracle Database | PL/SQL | MySQL'}
                 </span>
               </Skill>
-
+                  
+              <Skill>
+                {`${'Data Science'}: `}
+                <span style={{ color: 'white' }}>
+                  {'Predictive Modeling | Data Mining | Machine Learning | Deep Learning | Feature Engineering | Data Augmentation | Automation | Data Scraping | Data Pipeline'}
+                </span>
+              </Skill>
+                  
               <Skill>
                 {`${'Data visualization tools'}: `}
-                <span style={{ color: 'white' }}>{'Matplotlib | Seaborn'}</span>
+                <span style={{ color: 'white' }}>{'Matplotlib | Seaborn | Plotly'}</span>
               </Skill>
 
               <Skill>
